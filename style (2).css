@@ -1,0 +1,67 @@
+*{
+   margin:0px ;
+   padding:0px ;
+}
+.container{
+   width: 1140px;
+   margin: 0 auto;
+  
+}
+
+header{
+  width: 100%;
+  float: left;
+  background-color:white;
+  padding:20px 0px ;
+  position: fixed;
+  top: 0;
+
+
+}
+
+.logo{
+   width:35%;
+   float: left;
+}
+
+.manu{
+width:65%;
+
+float: left;
+}
+nav ul{
+list-style: none;
+}
+
+nav ul li{
+display: inline-block;
+margin: 10px 30px;
+}
+nav ul li a{
+color: black;
+text-decoration:none ;
+font-size: 28px;
+}
+
+footer{
+   width: 100%;
+   float: left;
+   padding:20px 0px ;
+}
+
+button{
+   padding: 10px 15px;
+   background: orange;
+   color: black;
+   
+}
+button:hover{
+   background: black;
+   color: cornflowerblue;
+}
+.abc{
+   text-align: center;
+}
+.dhaka{
+   text-align: center;
+}
