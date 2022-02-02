@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing:border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family:arial ;
+    font-size:14px ;
+    color: black ;
+    font-weight: normal;
+    background:#f0f2f5 ;
+}
+.loginsignup{
+    padding:120px ;
+}
+.container{
+    max-width: 992px;
+   
+    margin: auto;
+}
+
+.raw{
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify-contant-between{
+    justify-content: space-between;
+}
+.content-left{
+    max-width: 500px;
+}
+.content-left h1{
+    font-size: 50px;
+    color: #1877f2;
+    margin-bottom:20px ;
+    font-weight: 900;
+}
+.content-lefth2{
+    font-size: 28px;
+    line-height:32px ;
+    font-weight:500;
+    margin-bottom:40px ;
+
+}
+.content-right{
+    max-width: 450px;
+    margin: auto;
+    text-align: center;
+}
+.content-right form{
+     width:450px ;
+     height: 350px;
+    border-radius:5px ;
+    padding:15px ;
+    -webkit-box-shadow: -2px -1px 0px 0px rgba(0,0,0,0.51);
+    -moz-box-shadow: -2px -1px 0px 0px rgba(0,0,0,0.51);
+    box-shadow: -2px -1px 0px 0px rgba(0,0,0,0.51);
+    margin-bottom:30px ;
+}
+
+.content-right form input{
+    width: 100%;
+    height:500px ;
+    font-size: 17px;
+    border: 1px solid #ddd;
+    border-radius:5px ;
+    padding:0 15px;
+    margin-bottom: 15px;
+}
+
+.content-right form input:hover{
+    border:2px solid #000000 ;
+    background: #f0f2f5;
+}
+
+
+
+
+
+.btn{
+   font-size: 20px;
+    background-color:#1877f2 ;
+    height:50px ;
+    color:#fff;
+    line-height:50px ;
+    border-radius: 5px;
+    margin-bottom:20px ;
+    text-transform: capitalize;
+}
+
+.login a{
+   display:block;
+  padding: 8px;
+  margin: 10px;
+  
+}
+
+.create-btn a{
+    display: inline-block;
+    margin-top:20px;
+  padding: 0 17px;
+  background:#4cd137;
+  transition: .3S;
+}
+
+.create-btn a:hover{
+    background:#4cd137 ;
+    margin: 10px;
+    padding:15px ;
+}
+
+
+.forgot a{
+    font-size:14px;
+    line-height: 19px;
+    color: #18f285;
+}
+
+.forgot a:hover{
+  
+    text-decoration:underline ;
+
+}
+
+.content-right p a{
+    color:black ;
+    font-weight: 600;
+}
+
